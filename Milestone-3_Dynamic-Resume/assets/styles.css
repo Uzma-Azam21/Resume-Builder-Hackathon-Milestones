@@ -1,0 +1,118 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgba(206, 243, 248, 0.5);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  background-color:#c4e8f7;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(233, 87, 87, 0.9);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #3d1aec;
+}
+
+h2 {
+  font-size: 1.7em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+#skills-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#skills-container input {
+  width: 70%;
+}
+
+#skills-container button {
+  width: 30%;
+  align-self: flex-start;
+}
+
+#skills-list {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+#skills-list li {
+  list-style-type: disc;
+  margin-bottom: 5px;
+}
+
+#skills-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+#add-skill,
+#remove-skill {
+  background-color: #007bff;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#remove-skill {
+  background-color: #dc3545;
+}
+
+#generated-resume {
+  display: none;
+  background : rgba(212, 230, 244, 0.9);
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+
+#resume-content h3 {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+  color: #2e15e9;
+  border-bottom: 3px solid #007bff; 
+}
